@@ -1,0 +1,144 @@
+* {box-sizing: border-box;}
+
+body{
+margin: 0;
+}
+
+
+.header {
+    overflow: hidden;
+    background-color: #B6DBE4;
+    color:#1F3D4E;
+    padding: 20px 10px;
+  }
+
+  .header a {
+    float: left;
+    color: #1F3D4E;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 4px;
+  }
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  
+  .header a.active {
+    background-color: black;
+    border-radius: 4px;
+    color: #B6DBE4;
+    border: 1px solid black;
+  }
+  
+  .header-right {
+    float: right;
+  }
+  
+body {
+  margin: 0;
+  margin: 0;
+  font-family: "Jost", "Arial", sans-serif;
+}
+
+header {
+  background-color: #B6DBE4;
+  color:#1F3D4E;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  font-weight: bolder;
+  letter-spacing: 4px;
+}
+
+/* LOGO STYLES */  
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.logo img {
+  width: 70px;
+  margin-right: 10px;
+}
+
+/* HEADER NAV BAR STYLES */
+header a {
+  float: left;
+  color: #1F3D4E;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+  margin-right: 5px;
+  list-style: none;
+  display: flex;
+}
+
+header a.active {
+  background-color: #1F3D4E;
+  border-radius: 4px;
+  color: #B6DBE4;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+nav a:hover {
+  background-color: #86b6c3;
+}
+
+/* FOOTER STYLES */
+footer {
+  background-color: #EEB148;
+  padding: 20px 50px;
+  color:#1F3D4E;
+}
+#footer-title {
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+footer ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+footer a{
+  text-decoration: none;
+  color:#1F3D4E;
+}
+footer a:hover{
+  color:#315f7a;
+}
+
+
+/*   
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    
+    .header-right {
+      float: none;
+    }
+}

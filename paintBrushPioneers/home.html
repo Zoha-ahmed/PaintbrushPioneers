@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home-style.css">
+    <!--Jost-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,600;0,700;1,400&family=Volkhov:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <a href="./home.html" class="logo"><img src="./logo.png" alt="Logo" width="80px"></a>
+        <h1>PAINTBRUSH PIONEERS</h1>
+        <nav>
+          <a class="active" href="./home.html">Home</a>
+          <a href="./activitiesPage/activities.html">Activities</a>
+          <a href="./videosPage/videos.html">Videos</a>
+          <a href="#signup_sect">Sign in</a>
+          <a href="./credits.html">Credits</a>
+        </nav>
+    </header>
+
+    <main>
+    <!---->
+    <div class="hero">
+        <img src="homepics/herobg.jpg" width="99%" class="center">
+        <h2>Brushing the world with colorful creativity...</h2>
+        <p>
+            &emsp; Welcome to Paintbrush Pioneers, where the world of art comes to life for young, 
+            budding artists! We believe that every child is born with a creative spark waiting to ignite. Our mission is to nurture that spark and help it grow into a 
+            vibrant flame of artistic expression. We are a passionate team who have a spark for bringing great
+            art education to life for kids.
+        </p>
+        <a href="about.html" id="abtButton" class="center">About the Team</a>
+    </div>
+    <!---->
+    <div class="activity-vid">
+        <h2 style="text-align: center;">Interactive & Informative Resources</h2>
+        <div class="row">
+            <div class="column">
+                <a href="activitiesPage/activities.html"><img src="homepics/activity.jpg" width="80%"></a>
+            </div>
+            <div class="column">
+                <a href="videos_page/videos.html"><img src="homepics/video.jpg" width="80%"></a>
+            </div>
+        </div> 
+        <div class="row">
+            <div class="column">
+                <a href="./activitiesPage/activities.html"><h3>ACTIVITIES</h3></a>
+            </div>
+            <div class="column">
+                <a href="./videosPage/videos.html"><h3>VIDEOS</h3></a>
+            </div>
+        </div> 
+        
+        
+    </div>
+    <!---->
+    <div class="ethos">
+        <h2>Why Paintbrush Pioneers?</h2>
+        <p>
+            &emsp;Discover why parents, teachers, and children all adore our website! Our engaging platform transforms the sometimes complex world of color theory and art into an enjoyable and educational adventure. Our interactive platform makes learning color theory and art a delightful experience. But don't just take our word for it—read what they have to say:
+        </p>
+        <div class="testimonials">
+            <div class="aTestimonial" style="margin-top:0">
+                <img src="homepics/teacher.jpg" alt="Avatar" style="width:100px">
+                <p class="test_name">Ms. T, Art Teacher</p>
+                <p>"This website is a game-changer for my young art students. The digital activities and educational videos make learning color theory engaging and accessible. It's a valuable addition to my teaching toolkit!"</p>
+              </div>
+              
+              <div class="aTestimonial">
+                <img src="homepics/dad.jpg" alt="Avatar" style="width:100px">
+                <p class="test_name">John G, Father</p>
+                <p>"This website is a gem for parents. It's educational and fun, and my daughter's creativity and understanding of colors have grown significantly. It's a win-win for kids and parents."</p>
+              </div> 
+
+              <div class="aTestimonial">
+                <img src="homepics/child.jpg" alt="Avatar" style="width:100px">
+                <p class="test_name">Kid M, Kid</p>
+                <p>"I love this website! It's super fun, and I get to learn about colors and art while playing games and watching cool videos. It's the best, and I give it a million stars!"</p>
+              </div> 
+        </div>
+
+    </div>
+    <!---->
+    <div class="signup" id="signup_sect">
+        <img src="homepics/signup.jpg" width="47%">
+        <h2>Sign-Up Today!</h2>
+        <p style="width: 50%">
+            &emsp;Unlock your child's inner artist with our website! Explore the exciting world of color theory and art through interactive digital activities and curated educational videos. Join us for a creative journey that's both fun and educational. Sign up today and watch your child's creativity blossom!
+        </p>
+    
+        <div class="signin-form" style="width: 50%">
+            <form action="">
+                <div class="container">  
+        
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="*Enter Email" name="email" required>
+            
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="*Enter Password" name="psw" required>
+            
+                <label for="psw-repeat"><b>Repeat Password</b></label>
+                <input type="password" placeholder="*Repeat Password" name="psw-repeat" required>
+            
+                <label>
+                    <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px; width:20px"> Remember me
+                </label>
+            
+                <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+            
+                <div class="clearfix">
+                    <button type="submit" class="signupbtn">Sign Up</button>
+                </div>
+                </div>
+            </form> 
+        </div>
+    </div>
+
+    </main>
+
+    <footer>
+        <p id="footer-title">PAINTBRUSH PIONEERS</p>
+        <ul>
+            <li><a href="">Contact@email.com</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="">Account</a></li>
+        </ul>
+        <p>Copyright Information</p>
+    </footer>
+</body>
+
+</html>

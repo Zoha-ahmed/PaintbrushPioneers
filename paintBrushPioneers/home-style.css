@@ -1,0 +1,212 @@
+body{
+    background-color: #F1F1EF;
+    color:#1F3D4E;
+}
+
+h2{
+    font-family: "Volkhov", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+p {
+  margin-top: 2px;
+}
+
+img {
+  border-radius: 10px;
+}
+
+/* HERO SECTION */
+.hero {
+    margin-top: -50px;
+    padding: 25px 15%;
+    background-color: #B6DBE4;
+}
+.hero img {
+    margin-top: 30px;
+}
+a {
+  font-weight: bold;
+}
+
+#abtButton {
+  background-color: #F1F1EF;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  color: #436c83;
+  text-align: center;
+  width: 200px;
+}
+#abtButton:hover {
+  background-color: #ffdb9e;
+}
+/* ACTIVITY AND VIDEO SECTION */
+.activity-vid{
+    background-color: #F1F1EF;
+    padding: 0 15%;
+}
+.activity-vid h2{
+    color: #D34D36;
+    padding-bottom: 10px;
+    
+}
+.activity-vid h3{
+    letter-spacing: 1px;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.activity-vid a{
+    text-decoration: none;
+    color:inherit;
+    color:#D34D36;
+}
+.activity-vid a:hover{
+    color:#1F3D4E;
+}
+ .row {
+    padding: 0 2.5% 0 2.5%;
+    text-align: center;
+ }
+ 
+ .column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+
+
+/* ETHOS SECTION */
+.ethos{
+    padding: 10px 15%;
+    background-color: #EEB148;
+}
+.ethos h2 {
+    color: #F1F1EF;
+    margin-bottom: 5px;
+}
+
+.ethos p {
+    margin-bottom: 2px;
+}
+.testimonials {
+  width: 90%;
+}
+.aTestimonial {
+    padding: 16px;
+    margin: 16px ;
+}
+.aTestimonial p{
+    margin-top: 5px;
+}
+.test_name {
+    color: #F1F1EF;
+    font-weight: bold;
+    font-size: larger;
+    font-family: "Volkhov", "Arial", sans-serif;
+}
+
+  /* Clear floats after containers */
+  .aTestimonial::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .aTestimonial img {
+    float: left;
+    margin-right: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .aTestimonial span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  @media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+  
+    .aTestimonial img {
+      margin: auto;
+      float: none;
+      display: block;
+    }
+  }
+
+/* SIGNUP SECTION */
+.signup{
+    padding: 0 15%;
+}
+
+.signup img {
+    float: right;
+}
+
+.signup h2 {
+    margin-bottom: 3px;
+}
+.signup p {
+    margin-top: 2px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .signin-form {
+    margin-bottom: 20px;
+  }
+
+  input {
+    font-family: "Jost", "Arial", sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    width: 100%;
+    background-color: #C8736C;
+    color:#F1F1EF;
+  }
+  input:hover {
+    background-color: #e08b83;
+  }
+  input::placeholder {
+    color:#F1F1EF;
+  }
+
+  .signup button {
+    font-family: "Jost", "Arial", sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin: 8px 0;
+    background-color: #1F3D4E;
+    color:#F1F1EF;
+  }
+  .signup button:hover {
+    background-color: #436c83;
+  }
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+}

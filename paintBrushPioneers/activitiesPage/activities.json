@@ -1,0 +1,106 @@
+  {
+  "activities": [
+    {
+      "title": "Rainbow Garden Adventure",
+      "link": "activity1.html",
+      "image": ".\\activitypics\\homeactivity1.png",
+      "description": "Learn about color theory through a hands-on gardening activity! "
+    },
+    {
+      "title": "Colorful Canvas Creations",
+      "link": "activity2.html",
+      "image": ".\\activitypics\\homeactivity2.png",
+      "description": "Be introduced to color theory through an engaging painting activity!"
+    },
+    {
+      "title": "Color Treasure Hunt",
+      "link": "activity3.html",
+      "image": ".\\activitypics\\homeactivity3.png",
+      "description": "Learn about colors and enhance their understanding of color theory through a fun and interactive treasure hunt activity at home!"
+    },
+    {
+      "title": "Bubble Burst of Colors",
+      "link": "activity4.html",
+      "image": ".\\activitypics\\homeactivity4.png",
+      "description": "Learn about color theory through a creative and enjoyable activity involving blowing bubbles of different colors!"
+    },
+    {
+      "title": "Color Wheel Quest",
+      "link": "activity5.html",
+      "image": ".\\activitypics\\homeactivity5.png",
+      "description": "Learn to understand different hues and their placement on a color wheel, through a hands-on and interactive activity!"
+    },
+    {
+      "title": "Nature's Rainbow Scavenger Hunt",
+      "link": "activity6.html",
+      "image": ".\\activitypics\\homeactivity6.png",
+      "description": "Learn about color theory through an interactive and sensory nature walk activity, collecting items of various colors from the outdoors."
+    },
+    {
+      "title": "Colorful Chef Adventure",
+      "link": "activity7.html",
+      "image": ".\\activitypics\\homeactivity7.png",
+      "description": "Learn about the importance of a balanced diet and the variety of nutrients in different-colored foods through a fun cooking activity!"
+    },
+    {
+      "title": "Fashion Color Splash",
+      "link": "activity8.html",
+      "image": ".\\activitypics\\homeactivity8.png",
+      "description": "Learn about color theory through a creative and hands-on activity of customizing clothes with fabric paints!"
+    },  
+    {
+      "title": "Plant different colored vegetables in the garden!",
+      "link": "https://www.abcya.com/games/true-colors-color-theory",
+      "image": "./activity2.png",
+      "description": "Kids can learn about the different colors of different vegetables through this activity!"
+    },
+    {
+      "title": "See what happens when you mix colors!",
+      "link": "https://www.abcya.com/games/true-colors-color-theory",
+      "image": "./activity3.png",
+      "description": "Kids can see what happens when you mix paint colors together - without the mess of doing it at home!"
+    },
+    {
+      "title": "Test your knowledge! What color do mixed colors make?",
+      "link": "https://www.tinytap.com/activities/g38xt/play/mixing-colors",
+      "image": "./activity4.png",
+      "description": "Kids can see if they know which colors mixed colors make!"
+    },
+    {
+      "title": "Match the objects to their correct color!",
+      "link": "https://www.sheppardsoftware.com/preschool/colors/game/",
+      "image": "./activity5.png",
+      "description": "Kids can look at the colors of different objects and sort them by color!"
+    },
+    {
+      "title": "Pop the bubbles with the right color!",
+      "link": "https://www.sesamestreet.org/games?id=18229",
+      "image": "./activity6.png",
+      "description": "Kids can learn how to identify different colors with this bubble popping game."
+    },
+    {
+      "title": "Match the color to the color wheel!",
+      "link": "https://color.method.ac/",
+      "image": "./activity7.png",
+      "description": "Kids can match the color to different colors on the color wheel!"
+    },
+    {
+      "title": "Build a train with different art terms!",
+      "link": "https://wordwall.net/resource/5029760/color-theory",
+      "image": "./activity8.png",
+      "description": "For more advanced kids, they can build onto a train car and test their knowledge of different art terms!"
+    },
+    {
+      "title": "Play a matching game to test your knowledge of art terms!",
+      "link": "https://wordwall.net/resource/16004715/arts/color-theory",
+      "image": "./activity9.png",
+      "description": "For more advanced kids, they can play a matching game to test their knowledge of art terms!"
+    },
+    {
+      "title": "Drag the leaf to the correct box!",
+      "link": "https://wordwall.net/resource/35908659/arts/color-theory-primary",
+      "image": "./activity10.png",
+      "description": "Kids can test their knowledge of different colors by placing the leaves in the right spot!"
+    }
+  ]
+}
