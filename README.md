@@ -1,4 +1,4 @@
-# ahmedz
+# Paintbrush Pioneers
 
 Paintbrush Pioneers is an educational web application designed to enhance the cognitive development skills of children through engaging activities centered around color theory and art. Our goal is to provide a safe and interactive platform where users of all ages, with a focus on elementary school children, can explore different aspects of art, improve their artistic skills, and unleash their creativity. This project was presented to the Provost of Rensselear Polytechnic Institute.
 
